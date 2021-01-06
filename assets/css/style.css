@@ -4,9 +4,7 @@ body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-
     background-color: rgb(132, 141,142 );
-
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,6 +69,7 @@ header ul li h3{
 /* SECTIONS */
 
 section{
+    margin: 0 auto;
     width: 95%;
     text-align: center;
     padding-top: 50px;
@@ -79,10 +78,7 @@ section{
 section p{
     text-align: center;
     padding-top: 50px;
-}
-
-section p:first-of-type{
-    padding-left: 50px;
+    font-size: 1.2em;
 }
 
 main section div{
@@ -99,6 +95,10 @@ main section div{
 }
 p.short:last-of-type i{
     color: red;
+}
+
+main section img{
+    width: 60%;
 }
 
 main section div img{
