@@ -1,14 +1,23 @@
+@font-face{
+    font-family: 'Athene';
+    src: url("../fonts/Athene.otf");
+}
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    
     background-color: rgb(132, 141,142 );
     font-family: 'Montserrat', sans-serif;
 }
 
 /* HEADER */
+
+
 
 header{
     margin: 0;
@@ -17,7 +26,9 @@ header{
     height: 100vh;
     
     background: url("/assets/img/terminaltld-1024x576.png") center/cover no-repeat;
-    background-position: right 60px;
+    background-position: 0 60px 
+    ;
+
     /* background-color: red; */
     
     /* position: fixed; */
@@ -94,7 +105,8 @@ section{
 section p{
     text-align: center;
     padding-top: 50px;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    line-height: 160%;
 }
 
 main section div{
@@ -103,10 +115,16 @@ main section div{
     text-align: center;
 }
 
+/* FONTS */
+
+section h1{
+    font-family: 'Athene';
+}
+
 .short{
     text-align: center;
     font-family: 'Xanh Mono', monospace;
-    font-size: 1.4em;
+    font-size: 1.6em;
 
 }
 p.short:last-of-type i{
