@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_git.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <title>Cheatsheet</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li>
+                    <h3 id="term"> <a href="../../index.html">Terminal</a></h3>
+                    <h3 id="git">GIT</h3>
+                </li>
+                <li>
+                <li><a href="#PWD">INIT</a></li>
+                <li><a href="#LS">ADD</a></li>
+                <li><a href="#CD">COMMIT</a></li>
+                <li><a href="#TOUCH">REMOTE</a></li>
+                <li><a href="#MKDIR">PUSH</a></li>
+                <li><a href="#CP">LOG</a></li>
+                <li><a href="#MV">PULL</a></li>
+                <li><a href="#CLEAR">STATUS</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="PWD">
+            <h1>GIT INIT</h1>
+            <p> command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.</p>
+            <p class="short"> <b>CREATES</b> A NEW REPOSITORY!</p>
+            <img src="../img/git_init.png" alt="pwd">
+
+
+
+        </section>
+        <section id="LS">
+            <h1>GIT ADD</h1>
+            <p>adds file or files to the staging area</p>
+            <p class="short"><b>CHANGES</b> SUGGESTION</p>
+            <img src="../img/git_add.png" alt="ls">
+
+
+        </section>
+        <section id="CD">
+            <h1>GIT COMMIT</h1>
+            <p>creates a new commit containing the current contents of the index and the given log message describing the changes. The new commit is a direct child of HEAD, usually the tip of the current branch, and the branch is updated to point to it</p>
+            <p class="short">ACCEPT THE CHANGES FROM git init</p>
+
+
+            <img src="../img/git_commit.png" alt="">
+
+        </section>
+
+        <section id="TOUCH">
+            <h1>REMOTE</h1>
+            <p> The <b>remote</b>  command helps you to manage connections to remote repositories. It allows you to show which remotes are currently connected, but also to add new connections or remove existing ones.</p>
+
+
+            <p class="short">TRACK THE REPOS</p>
+            <img src="../img/git_remote.png" alt="touch">
+        </section>
+
+        <section id="MKDIR">
+            <h1>GIT PUSH</h1>
+            <p>updates remote refs using local refs, while sending objects necessary to complete the given refs.
+            </p>
+            <p class="short">UPDATE GITHUB </p>
+            <img src="../img/git_push.png" alt="mkdir">
+
+        </section>
+      
+
+        <section id="CP">
+            <h1>GIT LOG</h1>
+            <p>List commits that are reachable by following the parent links from the given commit(s), but exclude commits that are reachable from the one(s) given with a ^ in front of them. The output is given in reverse chronological order by default.</p>
+
+
+            <p class="short">SHOWS THE COMMIT LOGS</p>
+            <img src="../img/git_log.png" alt="">
+
+        </section>
+        <section id="MV">
+            <h1>GIT PULL</h1>
+            <p>..is a Git command used to update the local version of a repository from a remote. It is one of the four commands that prompts network interaction by Git.</p>
+
+
+            <p class="short"> <b>DOWNLOADING THE REPO</p>
+            <img src="../img/git_pull.png" alt="mv">
+
+        </section>
+        <section id="STATUS">
+            <h1>GIT STATUS</h1>
+            <p>Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git</p>
+
+            <p class="short">MOST USEFUL TOOL - SHOWS THE WORKING TREE</p>
+            <img src="../img/git_status.png" alt="cl1">
+
+        </section>
+    </main>
+
+</body>
+
+</html>

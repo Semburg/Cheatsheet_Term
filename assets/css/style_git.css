@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: rgb(132, 141,142 );
+    background-color: rgb(130, 140,145 );
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -69,16 +69,16 @@ header ul li h3{
     color: gold;
 }
 
-h3#term{
+h3#git{
     /* margin-right: 0; */
     text-decoration: underline;
     color: chartreuse;
 }
 
-h3#git a{
+h3#term a{
     color: gold;
 }
-h3#git a:hover{
+h3#term a:hover{
     text-decoration: underline;
 }
 
